@@ -41,6 +41,6 @@ resource "aws_instance" "tc_instance" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "TC-triggered-instance"
+    Name = "TC-triggered-instance-2"
   }
 }
